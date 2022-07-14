@@ -61,6 +61,7 @@ body {
   
   .content {
     margin-bottom: 48px;
+    z-index: 1;
   }
   
   .main--content {
