@@ -117,8 +117,17 @@ body {
     max-width:400px;
     max-height:282x;
     width: auto;
-    height: auto
+    height: auto;
+    animation: float 3s ease-in-out infinite;
   }
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-50px);
+    }
   
   .content--secundary {
     display: flex;
