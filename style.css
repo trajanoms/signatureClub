@@ -106,17 +106,8 @@ body {
     color: #2F2325;
     transform: scale(1);
     transition: all ease 0.3s;
-    animation: float 2s ease-in-out infinite;
-  }
+}
 
-        @keyframes float {
-          0%, 100% {
-        transform: translateY(0);
-        }
-           50% {
-        transform: translateY(-50px);
-        }
-  
   .main--content--written--button:hover {
     background-color: rgba(236, 214, 196, 0.53);
     transform: scale(1.3);
